@@ -34,12 +34,17 @@ The assignment showcases:
 ---
 
 ## 📁 Project Structure
-reddit-digest/
-│── src/
-│ └── trigger/
-│ └── redditDigest.ts
-│── .env.example
-│── README.md
+
+```text
+reddit-digest-automation/
+├── src/
+│   └── trigger/
+│       └── redditDigest.ts
+├── .env.example
+├── package.json
+├── package-lock.json
+├── trigger.config.ts
+└── README.md
 
 ## 🚀 Setup Instructions
 
@@ -53,16 +58,23 @@ cd reddit-digest
 ```bash
 npm install
 
-3. Configure environment variables:
+## 🚀 Setup Instructions
+
+### 3. Configure Environment Variables
+
+Create a `.env` file:
+
+```env
 RESEND_API_KEY=your_resend_api_key
 TO_EMAIL=your_email_address
 
-4. Run locally
+### 4. Run locally
+
 npx trigger.dev dev 
 
-5. Trigger the Task
+### 5. Trigger the Task
 
-Open Trigger.dev Dashboard
+-**Open Trigger.dev Dashboard**
 
 Navigate to your project
 
