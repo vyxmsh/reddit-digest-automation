@@ -48,7 +48,7 @@ reddit-digest-automation/
 
 ## 🚀 Setup Instructions
 
-### 1. Clone the Repository
+1. Clone the Repository
 
 ```bash
 git clone <your-repo-link>
@@ -60,7 +60,7 @@ npm install
 
 ## 🚀 Setup Instructions
 
-### 3. Configure Environment Variables
+3. Configure Environment Variables
 
 Create a `.env` file:
 
@@ -68,13 +68,13 @@ Create a `.env` file:
 RESEND_API_KEY=your_resend_api_key
 TO_EMAIL=your_email_address
 
-### 4. Run locally
+4. Run locally
 
 npx trigger.dev dev 
 
-### 5. Trigger the Task
+5. Trigger the Task
 
--**Open Trigger.dev Dashboard**
+Open Trigger.dev Dashboard
 
 Navigate to your project
 
